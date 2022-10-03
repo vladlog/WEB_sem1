@@ -1,0 +1,82 @@
+body{
+    margin:0;
+}
+a{
+    text-decoration: none;
+    color: black;
+    transition: color 0.3s;
+}
+a:hover{
+    color: powderblue;
+}
+.main{
+    width: 100vw;
+    height: 100vh;
+    /*font-family: Roboto;*/
+    display: grid;
+    grid-template-columns: 6fr 30px 2fr;
+    grid-template-rows: 1fr 3fr 1fr;
+}
+.one{
+    grid-column: 1;
+    grid-row:1;
+    background-color: #64a7c1;
+    text-align: right;
+    display: grid;
+    grid-template-columns: 100px 1fr;
+    border:1px solid black;
+}
+.image-profile{
+    width: 70px;
+    border-radius: 60px;
+    margin-top: 20px;
+    margin-left: 5px;
+}
+.header-one{
+    margin-top: 35px;
+}
+.two{
+    grid-column: 3;
+    grid-row: 1/3;
+    border:1px solid black;
+    background-color: darkseagreen;
+}
+.Menu-header{
+    margin-left: 50px;
+    font-size: 30px;
+}
+.menu-array{
+    font-size: 20px;
+    border:1px;
+    border-radius: 5px;
+    margin-left: 5px;
+    margin-right:70px ;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-style:dashed;
+}
+.tree{
+    grid-column: 1;
+    grid-row: 2;
+    text-align: center;
+    border:1px solid black;
+}
+.four{
+    grid-column: 1;
+    grid-row: 3;
+    background-color: #64a7c1;
+    border:1px solid black;
+}
+.guitar-info{
+    margin-left: 20px;
+}
+.five{
+    grid-column: 3;
+    grid-row: 3;
+    background-color: #ffd589;
+    border:1px solid black;
+}
+.made-by{
+    font-size: 20px;
+    margin-left: 30px;
+}
